@@ -1,0 +1,9 @@
+{
+	"name": "pipelinecongiuration",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "07a08084-8b2c-43e1-93cb-2f5dcdc4372f",
+		"tenantId": "abc7b3b4-0474-4c36-8f68-7f18035fed58"
+	}
+}
