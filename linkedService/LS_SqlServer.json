@@ -13,10 +13,6 @@
 				},
 				"secretName": "password"
 			}
-		},
-		"connectVia": {
-			"referenceName": "SHIRintegrationRuntime",
-			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
