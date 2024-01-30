@@ -1,0 +1,9 @@
+{
+	"name": "pipesource",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "88f580f9-efa3-458f-97c9-a5314fecfcf4",
+		"tenantId": "abc7b3b4-0474-4c36-8f68-7f18035fed58"
+	}
+}
