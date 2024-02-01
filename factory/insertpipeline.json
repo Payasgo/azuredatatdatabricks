@@ -1,0 +1,9 @@
+{
+	"name": "insertpipeline",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c70340fd-5212-4345-995d-3647aae90a65",
+		"tenantId": "abc7b3b4-0474-4c36-8f68-7f18035fed58"
+	}
+}

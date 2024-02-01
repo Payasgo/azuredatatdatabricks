@@ -1,31 +1,17 @@
 {
-	"name": "DS_SINK_DelimitedText",
+	"name": "DS_Source_Audit_DelimitedText",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureDataLakeStorage",
 			"type": "LinkedServiceReference"
-		},
-		"parameters": {
-			"SchemaName": {
-				"type": "string"
-			},
-			"TableName": {
-				"type": "string"
-			}
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": {
-					"value": "@concat(dataset().TableName, '.CSV')",
-					"type": "Expression"
-				},
-				"folderPath": {
-					"value": "@concat(dataset().SchemaName, '/', dataset().TableName)",
-					"type": "Expression"
-				},
+				"fileName": "Coaches.CSV",
+				"folderPath": "dbo/Coaches",
 				"fileSystem": "input"
 			},
 			"columnDelimiter": ",",

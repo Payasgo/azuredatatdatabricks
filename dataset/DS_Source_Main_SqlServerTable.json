@@ -1,5 +1,5 @@
 {
-	"name": "DS_Source_SqlServerTable",
+	"name": "DS_Source_Main_SqlServerTable",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Ls_SqlServer",

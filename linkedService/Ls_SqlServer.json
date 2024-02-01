@@ -1,0 +1,23 @@
+{
+	"name": "Ls_SqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=KRANTHI;Initial Catalog=OLYMPIC;User ID=adf",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SHIRintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

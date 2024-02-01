@@ -1,0 +1,34 @@
+{
+	"name": "DS_AUditLog_lookup_SqlServerTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_SqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"PipelineName": {
+				"type": "string"
+			},
+			"PipelinerunID": {
+				"type": "string"
+			},
+			"PipelineStatus": {
+				"type": "string"
+			},
+			"RunStart": {
+				"type": "string"
+			},
+			"Duration": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Coaches"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
