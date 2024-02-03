@@ -7,7 +7,7 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "configuresetrules"
 		},
-		"Ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://worldkeys.vault.azure.net/"
 		}
@@ -27,14 +27,14 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/Ls_AzureKeyVault')]",
+			"name": "[concat(parameters('factoryName'), '/LS_AzureKeyVault')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "AzureKeyVault",
 				"typeProperties": {
-					"baseUrl": "[parameters('Ls_AzureKeyVault_properties_typeProperties_baseUrl')]"
+					"baseUrl": "[parameters('LS_AzureKeyVault_properties_typeProperties_baseUrl')]"
 				}
 			},
 			"dependsOn": []
