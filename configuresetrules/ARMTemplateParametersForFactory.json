@@ -5,6 +5,21 @@
 		"factoryName": {
 			"value": "configuresetrules"
 		},
+		"LS_Snowflake_connectionString": {
+			"value": "jdbc:snowflake://id54385.central-india.azure.snowflakecomputing.com/?user=KRANTHI&db=DULIPALLALAKSHMI&warehouse=COMPUTE_WH"
+		},
+		"LS_SqlServer_connectionString": {
+			"value": "Integrated Security=False;Data Source=KRANTHI;Initial Catalog=OLYMPIC;User ID=azureadf"
+		},
+		"LS_AzureBlobStorage_sasUri": {
+			"value": ""
+		},
+		"LS_AzureBlobStorage_properties_typeProperties_sasToken_secretName": {
+			"value": "azureblobsastoken"
+		},
+		"LS_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://savetheworld.dfs.core.windows.net"
+		},
 		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
 			"value": "https://worldkeys.vault.azure.net/"
 		}
