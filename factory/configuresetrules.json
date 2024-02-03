@@ -1,0 +1,9 @@
+{
+	"name": "configuresetrules",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e39ae5dd-cf6a-45cf-ab61-058e221b8516",
+		"tenantId": "abc7b3b4-0474-4c36-8f68-7f18035fed58"
+	}
+}
